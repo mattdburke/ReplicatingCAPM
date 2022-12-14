@@ -1,4 +1,4 @@
-df1 <- read.csv("https://github.com/mattdburke/ReplicatingCAPM/blob/main/data.csv")
+df1 <- read.csv("https://raw.githubusercontent.com/mattdburke/ReplicatingCAPM/main/data.csv")
 df2 <- data.frame(matrix(ncol = 3, nrow = 8))
 colnames(df2) <- c("Firm", "AvRet", "Beta")
 df2$Firm <- colnames(df1)
